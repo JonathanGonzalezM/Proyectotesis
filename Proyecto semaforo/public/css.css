@@ -1,0 +1,94 @@
+body{
+    /*background-color: rgb(141, 252, 252);*/
+    background: url(http://diwo.bq.com/wp-content/uploads/2015/04/Semaforo-Animacion-gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.img1{
+    padding: 10px; 
+    margin: 10px; 
+    float: left;
+    width: 250px;
+}
+
+.img2{
+    padding: 10px;
+    margin: 10px; 
+    float: right; 
+    width: 250px;  
+}
+
+#maincontainer{
+    margin: 150px auto;
+    width: 400px;
+}
+
+th, td{padding: 12px;}
+
+table{
+    background-color:#34495E;
+    border-collapse: separate;
+    border-bottom:solid 5px #11c011;
+    color: white;
+    text-align: center;
+    border-style:groove;
+     margin: 0 auto;
+   
+}
+
+table tr:nth-child(1){
+
+    color: black;
+    background-color:#DC7633 ;
+    font: size 15px;
+    font-weight: bold;
+}
+table td:nth-child(1){
+
+    color: black;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+table td:nth-child(2){
+
+    color: black;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+p, h1 {
+    text-align: center;
+
+  }
+
+h1{
+color:rgb(19, 17, 16);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+color:#283747 ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+font-weight: bold;
+background-color: white;
+border: ridge #D35400  1px;
+width:500px;
+margin: 0 auto;
+}
+
+
+
+

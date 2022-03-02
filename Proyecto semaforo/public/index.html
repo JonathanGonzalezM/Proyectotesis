@@ -1,0 +1,102 @@
+<!-- Complete Project Details at: https://RandomNerdTutorials.com/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaforo Inteligente</title>
+    <link rel="stylesheet" href="css.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script>
+    // REPLACE WITH YOUR web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyClhRCEpeK7i9SyLUYdUs0ggRmqXWj6w9k",
+      authDomain: "semaforointeligenteproyecto.firebaseapp.com",
+      databaseURL: "https://semaforointeligenteproyecto-default-rtdb.firebaseio.com",
+      projectId: "semaforointeligenteproyecto",
+      storageBucket: "semaforointeligenteproyecto.appspot.com",
+      messagingSenderId: "898115414364",
+      appId: "1:898115414364:web:954bafd27bee8effa33999"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database();
+</script>
+<script src="app1.js" defer></script>
+
+</head>
+<body>
+
+    
+    <img class="img1" src="https://moodledanu.uleam.edu.ec/pluginfile.php/1/theme_klass/footerlogo/1632838115/logo_ULEAM_2017_horizontal.png">
+    <img class="img2" src="https://static.wixstatic.com/media/90ac44_1f6963d7cfe1457f9e248dccc0163ba7~mv2.png/v1/fill/w_556,h_126,al_c,lg_1,q_85/90ac44_1f6963d7cfe1457f9e248dccc0163ba7~mv2.webp">
+    <h1>CANTIDAD DE VEHíCULOS POR MES (AVENIDA METROPOLITANA-MONTECRISTI)</h1><br>
+    <p>Número de Carros de Ida: <span id="CarroIda"></span></p><br>
+    <p>Número de Carros de Vuelta: <span id="CarroVuelta"></span></p><br><br>
+    
+    
+
+    <table class="separado", border="1">
+
+        <tr><td>AÑO</td>
+            <td>MES</td>
+            <td>ENERO</td>      
+            <td>FEBRERO</td>      
+            <td>MARZO</td>
+            <td>ABRIL</td>      
+            <td>MAYO</td>      
+            <td>JUNIO</span></td>
+            <td>JULIO</td>      
+            <td>AGOSTO</td>      
+            <td>SEPTIEMBRE</td>
+            <td>OCTUBRE</td>      
+            <td>NOVIEMBRE</td>      
+            <td>DICIEMBRE</td>
+        </tr>
+
+        <tr>
+            <td>2022</td>
+            <td>ENTRAN</td>
+            <td><span id="EneroIda"></span></td>      
+            <td><span id="FebreroIda"></span></td>      
+            <td><span id="MarzoIda"></span></td>
+            <td><span id="AbrilIda"></span></td>      
+            <td><span id="MayoIda"></span></td>      
+            <td><span id="JunioIda"></span></td>
+            <td><span id="JulioIda"></span></td>      
+            <td><span id="AgostoIda"></span></td>      
+            <td><span id="SeptiembreIda"></span></td>
+            <td><span id="OctubreIda"></span></td>      
+            <td><span id="NoviembreIda"></span></td>      
+            <td><span id="DiciembreIda"></span></td>
+        </tr>
+      
+        <tr>
+            <td>2022</td>
+            <td>SALEN</td>
+            <td><span id="EneroVuelta"></span></td>      
+            <td><span id="FebreroVuelta"></span></td>      
+            <td><span id="MarzoVuelta"></span></td>
+            <td><span id="AbrilVuelta"></span></td>      
+            <td><span id="MayoVuelta"></span></td>      
+            <td><span id="JunioVuelta"></span></td>
+            <td><span id="JulioVuelta"></span></td>      
+            <td><span id="AgostoVuelta"></span></td>      
+            <td><span id="SeptiembreVuelta"></span></td>
+            <td><span id="OctubreVuelta"></span></td>      
+            <td><span id="NoviembreVuelta"></span></td>      
+            <td><span id="DiciembreVuelta"></span></td>
+        </tr>
+      
+      </table>
+    
+
+</body>
+</html>
